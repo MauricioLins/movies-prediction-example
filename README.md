@@ -26,7 +26,7 @@ In this project you will find two pipelines:
 You can download it <a href='https://grouplens.org/datasets/movielens/'>here</a>.
 
 
-### API
+## API
 The API is using Spark to generate the predictions, so it needs to run a spark-submit.
    * Reference:
         * You can find more details in this very good example, that was used as baseline: <a href="https://www.codementor.io/@jadianes/building-a-web-service-with-apache-spark-flask-example-app-part2-du1083854">Building a Movie Recommendation Service with Apache Spark & Flask - Part 2</a>
