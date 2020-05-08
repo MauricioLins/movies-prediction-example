@@ -26,7 +26,7 @@ movies_df = spark.read.csv('ml-latest/movies.csv',header=True,inferSchema=True) 
     .toDF(['IdMovie', 'genres'])
 
 print("##################################### GATHERING DATA FROM COUCHDB")
-response = requests.get("http://jarvis3:5984/moviesdetails/_all_docs?include_docs=true")
+response = requests.get("http://SERVER:5984/moviesdetails/_all_docs?include_docs=true")
 y        = [response.text][0]
 
 print("##################################### GROUPING DOCUMENTS")
